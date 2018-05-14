@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
@@ -27,12 +28,16 @@
                 android:id="@+id/name_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:hint="@string/name_request"
                 android:inputType="text" />
 
             <!-- Question 1 -->
             <!-- Background -->
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
             <LinearLayout
                 style="@style/AppTheme.qStyle"
                 android:layout_width="match_parent"
@@ -49,6 +54,7 @@
                 <!-- Options -->
                 <RadioGroup
                     android:id="@+id/q1_radio_group"
+                    android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -78,7 +84,13 @@
                         android:text="@string/q1_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
 
+
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <!-- Question 2 -->
             <LinearLayout
                 style="@style/AppTheme.qStyle"
@@ -119,7 +131,6 @@
                             android:layout_height="wrap_content"
                             android:text="@string/q2_o2" />
                     </LinearLayout>
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -140,7 +151,12 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
 
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <LinearLayout
                 style="@style/AppTheme.qStyle"
                 android:layout_width="match_parent"
@@ -184,6 +200,12 @@
                         android:text="@string/q3_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
             <LinearLayout
                 style="@style/AppTheme.qStyle"
@@ -228,6 +250,12 @@
                         android:text="@string/q4_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
             <LinearLayout
                 style="@style/AppTheme.qStyle"
@@ -272,6 +300,12 @@
                         android:text="@string/q5_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
             <LinearLayout
                 style="@style/AppTheme.qStyle"
@@ -316,6 +350,12 @@
                         android:text="@string/q6_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
             <LinearLayout
                 style="@style/AppTheme.qStyle"
@@ -360,6 +400,12 @@
                         android:text="@string/q7_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/cardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
             <LinearLayout
                 style="@style/AppTheme.qStyle"
@@ -404,6 +450,7 @@
                         android:text="@string/q8_o4" />
                 </RadioGroup>
             </LinearLayout>
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
     </ScrollView>

@@ -3,4 +3,6 @@
     <color name="colorPrimary">#26A69A</color>
     <color name="colorPrimaryDark">#00766c</color>
     <color name="colorAccent">#4FC3F7</color>
+
+    <color name="colorQuestionBackground">#E0F2F1</color>
 </resources>
