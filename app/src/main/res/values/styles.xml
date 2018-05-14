@@ -11,6 +11,7 @@
     <!-- Question background style. -->
     <style name="AppTheme.qStyle">
         <!--<item name="android:layout_marginBottom">6dp</item> -->
+        <item name="android:paddingBottom">8dp</item>
         <item name="android:background">@color/colorQuestionBackground</item>
     </style>
 

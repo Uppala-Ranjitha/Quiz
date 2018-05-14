@@ -109,7 +109,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_marginLeft="8dp"
                     android:baselineAligned="false"
                     android:orientation="horizontal">
 
@@ -173,6 +173,7 @@
                     android:id="@+id/q3_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:orientation="vertical">
 
                     <RadioButton
@@ -223,6 +224,7 @@
                     android:id="@+id/q4_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:orientation="vertical">
 
                     <RadioButton
@@ -273,6 +275,7 @@
                     android:id="@+id/q5_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:orientation="vertical">
 
                     <RadioButton
@@ -323,6 +326,7 @@
                     android:id="@+id/q6_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:orientation="vertical">
 
                     <RadioButton
@@ -373,6 +377,7 @@
                     android:id="@+id/q7_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:orientation="vertical">
 
                     <RadioButton
@@ -423,6 +428,7 @@
                     android:id="@+id/q8_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:orientation="vertical">
 
                     <RadioButton
